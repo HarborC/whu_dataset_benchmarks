@@ -1,0 +1,57 @@
+<launch>
+    <node pkg="data2bag" type="data2bag_node" name="data_2bag" output="screen">
+        <param name="root_dir" type="string" value = "/mnt/g/data/AVD/2024-11/2024-11-24_15-34-54" />
+        <param name="save_dir" type="string" value = "/mnt/g/projects/MDBA-SLAM/SLAM/avd/calibration" />
+        <param name="start_time" type="double" value = "1732433695.199482203" />
+        <param name="end_time" type="double" value = "1732433701.099962950" />
+    </node>
+
+    <!-- <node pkg="data2bag" type="data2bag_node" name="data_2bag" output="screen">
+        <param name="root_dir" type="string" value = "/mnt/g/data/AVD/2024-11/2024-11-24_15-34-54" />
+        <param name="start_time" type="double" value = "1732433732.799336910" />
+        <param name="end_time" type="double" value = "1732434394.299974918" />
+    </node> -->
+
+    <!-- <node pkg="data2bag" type="data2bag_node" name="data_2bag" output="screen">
+        <param name="root_dir" type="string" value = "/mnt/g/data/AVD/2024-11/2024-11-26_11-11-17" />
+        <param name="start_time" type="double" value = "1732590728.599605083" />
+        <param name="end_time" type="double" value = "1732592109.999284983" />
+    </node> -->
+
+    <!-- <node pkg="data2bag" type="data2bag_node" name="data_2bag" output="screen">
+        <param name="root_dir" type="string" value = "/mnt/g/data/AVD/2024-03/2024-03-20_15-26-28" />
+        <param name="start_time" type="double" value = "1710919586.300220966" />
+        <param name="end_time" type="double" value = "1710920021.099806070" />
+    </node> -->
+
+    <!-- <node pkg="data2bag" type="data2bag_node" name="data_2bag" output="screen">
+        <param name="root_dir" type="string" value = "/mnt/g/data/AVD/2024-03/2024-03-20_15-46-15" />
+        <param name="start_time" type="double" value = "1710920774.999961138" />
+        <param name="end_time" type="double" value = "1710921432.299679041" />
+    </node> -->
+
+    <!-- <node pkg="data2bag" type="data2bag_node" name="data_2bag" output="screen">
+        <param name="root_dir" type="string" value = "/mnt/g/data/AVD/2024-11/2024-11-27_15-08-35" />
+        <param name="start_time" type="double" value = "1732691340.799766064" />
+        <param name="end_time" type="double" value = "1732692797.899927139" />
+    </node> -->
+
+    <!-- <node pkg="data2bag" type="data2bag_node" name="data_2bag" output="screen">
+        <param name="root_dir" type="string" value = "/mnt/g/data/AVD/2024-11/2024-11-27_15-38-37" />
+        <param name="start_time" type="double" value = "1732693138.999485970" />
+        <param name="end_time" type="double" value = "1732694059.699989080" />
+    </node> -->
+
+    <!-- <node pkg="data2bag" type="data2bag_node" name="data_2bag" output="screen">
+        <param name="root_dir" type="string" value = "/mnt/i/AVD/2024-12/2024-12-02_14-34-24" />
+        <param name="start_time" type="double" value = "1733121335.199329138" />
+        <param name="end_time" type="double" value = "1733123002.499931812" />
+    </node> -->
+
+    <!-- <node pkg="data2bag" type="data2bag_node" name="data_2bag" output="screen">
+        <param name="root_dir" type="string" value = "/mnt/i/AVD/2024-12/2024-12-02_15-20-34" />
+        <param name="start_time" type="double" value = "1733124051.299627066" />
+        <param name="end_time" type="double" value = "1733125605.499985933" />
+    </node> -->
+
+</launch>

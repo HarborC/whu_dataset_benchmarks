@@ -1,0 +1,35 @@
+<launch>
+    <!-- 全局参数设置 -->
+    <param name="root_dir" type="string" value="/mnt/g/data/AVD/2024-03/2024-03-20_15-46-15" />
+    <param name="start_time" type="double" value="1710920774.999961138" />
+    <param name="end_time" type="double" value="1710921432.299679041" />
+
+    <!-- PCL 数据节点 -->
+    <node pkg="data2bag" type="pcl2bag_node" name="pcl_2bag" output="screen">
+        <rosparam param="root_dir" subst_value="true">$(arg root_dir)</rosparam>
+        <rosparam param="start_time" subst_value="true">$(arg start_time)</rosparam>
+        <rosparam param="end_time" subst_value="true">$(arg end_time)</rosparam>
+    </node>
+
+    <!-- IMU 数据节点 -->
+    <node pkg="data2bag" type="imu2bag_node" name="imu_2bag" output="screen">
+        <rosparam param="root_dir" subst_value="true">$(arg root_dir)</rosparam>
+        <rosparam param="start_time" subst_value="true">$(arg start_time)</rosparam>
+        <rosparam param="end_time" subst_value="true">$(arg end_time)</rosparam>
+    </node>
+
+    <!-- GPS 数据节点 -->
+    <node pkg="data2bag" type="gps2bag_node" name="gps_2bag" output="screen">
+        <rosparam param="root_dir" subst_value="true">$(arg root_dir)</rosparam>
+        <rosparam param="start_time" subst_value="true">$(arg start_time)</rosparam>
+        <rosparam param="end_time" subst_value="true">$(arg end_time)</rosparam>
+    </node>
+
+    <!-- 图像数据节点 -->
+    <node pkg="data2bag" type="image2bag_node" name="image_2bag" output="screen">
+        <rosparam param="root_dir" subst_value="true">$(arg root_dir)</rosparam>
+        <rosparam param="start_time" subst_value="true">$(arg start_time)</rosparam>
+        <rosparam param="end_time" subst_value="true">$(arg end_time)</rosparam>
+    </node>
+
+</launch>
