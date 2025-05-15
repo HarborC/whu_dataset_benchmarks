@@ -1,0 +1,8 @@
+<launch>
+	<param name="lidar_addr" type="string" value="/mnt/g/projects/MDBA-SLAM/SLAM/avd/calibration/data0.bag" />	
+	<!--false: pointcloud2, true: custommsg -->
+	<param name="lidar_type" type="bool" value="false" /> 
+	<param name="img_addr" type="string" value="/mnt/g/projects/MDBA-SLAM/SLAM/avd/calibration/image.png" />
+	<param name="camera_file_addr" type="string" value="/mnt/g/projects/MDBA-SLAM/SLAM/ws_calib/src/Lidar-Camera-Calibration-Software/config/camera_config.yaml" />
+	<param name="save_dir" type="string" value="/mnt/g/projects/MDBA-SLAM/SLAM/avd/calibration" />
+</launch>

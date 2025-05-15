@@ -1,0 +1,9 @@
+.idea/
+linshi.py
+__pycache__
+build
+main.cpp
+param3.yaml
+config/param3.yaml
+result
+
